@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationProjects", "ApplicationProjects", "{C96801AA-3AB9-4845-B311-98F10494B582}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{9566BF96-23AD-451C-BA2B-97051C29331F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A050228F-6569-489F-B9AE-7D8D762BF241}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{B7E6106C-614C-40A3-A770-9437FC533B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLimitOfDataTypes", "TheLimitOfDataTypes\TheLimitOfDataTypes.csproj", "{6E982531-05C9-4347-922A-6548FA85EB28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationProjectsTests", "ApplicationProjectsTests", "{7AE2B6FE-0A4B-4C64-8BCC-9DD36392F149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLimitOfDataTypesTests", "TheLimitOfDataTypesTests\TheLimitOfDataTypesTests.csproj", "{EBE4C3AF-67F4-40C7-8362-90BF98B485E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueAndReferenceTypes", "ValueAndReferenceTypes\ValueAndReferenceTypes.csproj", "{6D23AEC1-83CC-4451-B0F2-687A9DD0454F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceAndValueTypesTests", "ReferenceAndValueTypesTests\ReferenceAndValueTypesTests.csproj", "{3086DFCC-8ECA-48AB-9404-B98964910F83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E982531-05C9-4347-922A-6548FA85EB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E982531-05C9-4347-922A-6548FA85EB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E982531-05C9-4347-922A-6548FA85EB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E982531-05C9-4347-922A-6548FA85EB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE4C3AF-67F4-40C7-8362-90BF98B485E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE4C3AF-67F4-40C7-8362-90BF98B485E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE4C3AF-67F4-40C7-8362-90BF98B485E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE4C3AF-67F4-40C7-8362-90BF98B485E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D23AEC1-83CC-4451-B0F2-687A9DD0454F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D23AEC1-83CC-4451-B0F2-687A9DD0454F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D23AEC1-83CC-4451-B0F2-687A9DD0454F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D23AEC1-83CC-4451-B0F2-687A9DD0454F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3086DFCC-8ECA-48AB-9404-B98964910F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3086DFCC-8ECA-48AB-9404-B98964910F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3086DFCC-8ECA-48AB-9404-B98964910F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3086DFCC-8ECA-48AB-9404-B98964910F83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E982531-05C9-4347-922A-6548FA85EB28} = {C96801AA-3AB9-4845-B311-98F10494B582}
+		{7AE2B6FE-0A4B-4C64-8BCC-9DD36392F149} = {A050228F-6569-489F-B9AE-7D8D762BF241}
+		{EBE4C3AF-67F4-40C7-8362-90BF98B485E1} = {7AE2B6FE-0A4B-4C64-8BCC-9DD36392F149}
+		{6D23AEC1-83CC-4451-B0F2-687A9DD0454F} = {C96801AA-3AB9-4845-B311-98F10494B582}
+		{3086DFCC-8ECA-48AB-9404-B98964910F83} = {7AE2B6FE-0A4B-4C64-8BCC-9DD36392F149}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBD204C0-33AA-4027-ACCC-52F4FD2CC158}
+	EndGlobalSection
+EndGlobal
