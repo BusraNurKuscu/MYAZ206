@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RefAndOutConsoleApp\RefAndOutConsoleApp.csproj" />
     <ProjectReference Include="..\ValueAndReferenceTypes\ValueAndReferenceTypes.csproj" />
   </ItemGroup>
 

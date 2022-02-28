@@ -1,3 +1,4 @@
+using ValueAndReferenceTypes;
 using Xunit;
 
 namespace TheLimitOfDataTypesTests
@@ -65,6 +66,32 @@ namespace TheLimitOfDataTypesTests
             minValue = - 1.123456789 + 308;
             
         }
+        [Fact]
+        public void SwapByValueTest()
+        {
+            // arrange
+            var refType = new ReferenceType();
+            int a = 23,  b = 55;
+
+            //act
+            refType.SwapByRef(ref a, ref b);
+
+            // assert
+            Assert.Equal(55, b);
+            Assert.Equal(23, a);
+
+        }
+        public void CheckOutKeyWordRef(out int variable)
+        {
+            variable = 100;
+            return;
+        }
+        public void CheckOutKeyWordVal( int variable)
+        {
+            variable = 100;
+            return;
+        }
+
 
     }
 }
