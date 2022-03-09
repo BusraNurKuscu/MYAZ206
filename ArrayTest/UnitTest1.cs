@@ -5,6 +5,18 @@ namespace ArrayTest
     public class ArrayTests
     {
         [Fact]
+        public void IndexOf_Test()
+        {
+            //arrange
+            var array = new Array.Array(1, 2, 3, 4);
+
+            //act
+            var result = array.IndexOf(2);
+
+            //assert
+            Assert.Equal(1, result);
+        }
+        [Fact]
         public void ArraySetValueTest()
         {   //arrenge
             var arr = new Array.Array();

@@ -5,7 +5,9 @@ namespace ArrayApp
     {
         static void Main(string[] args)
         {
-            var array = new int[] { 1, 2, 3, 4 };
+            var array = new List<int> { 1,2, 3 };   
+          
+          
 
             var arr = new Array.Array(1, 2, 3, 4, 5, 6);
             foreach (var item in array)

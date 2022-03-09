@@ -4,16 +4,16 @@ namespace Array
 {
     public class Array  : ICloneable, IEnumerable
     {
-        private Object[] innerArr { get; set; }
-         public int Lengt => innerArr.Length;   
+        private Object[] InnerArr { get; set; }
+         public int Lengt => InnerArr.Length;   
         public Array(int defaultSize =16)
         {
-           innerArr = new Object[defaultSize];
+           InnerArr = new Object[defaultSize];
 
         }
         public Array(params Object[] sourceArrays) : this(sourceArrays.Length)
         {
-            System.Array.Copy(sourceArrays, innerArr, sourceArrays.Length);
+            System.Array.Copy(sourceArrays, InnerArr, sourceArrays.Length);
             //int c = 0;
             //foreach (var source in sourceArrays)
             //{
@@ -24,13 +24,13 @@ namespace Array
         public void SetValue(Object value, int index)
         {    
             // aralık dışını kontrol eder
-            if (!(index >= 0 && index < innerArr.Length))
+            if (!(index >= 0 && index < InnerArr.Length))
                 throw new ArgumentException();
 
             //boş değeri kontrol eder
             if (value == null)
                 throw new ArgumentNullException();
-            innerArr[index] = value;
+            InnerArr[index] = value;
             return;
         }
 
@@ -41,9 +41,9 @@ namespace Array
         }
         public Object GetValue(int index)
         {
-            if (!(index >= 0 && index < innerArr.Length))
+            if (!(index >= 0 && index < InnerArr.Length))
                 throw new ArgumentException();
-            return innerArr[index];
+            return InnerArr[index];
         }
 
         public object Clone()
@@ -52,8 +52,17 @@ namespace Array
         }
         public IEnumerator GetEnumerator()
         {
-            return innerArr.GetEnumerator();
+            return InnerArr.GetEnumerator();
            //return new CustomArrayEnumerator(innerArr);
+        }
+        public int IndexOf(object value)
+        {
+            for (int i = 0; i < InnerArr.Length; i++)
+            {
+                     if(InnerArr[i].Equals (value))
+                    return i;
+            }
+            return -1;
         }
     }
 }
