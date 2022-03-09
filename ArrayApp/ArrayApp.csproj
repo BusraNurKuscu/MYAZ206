@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArrayTest\ArrayTest.csproj" />
+    <ProjectReference Include="..\Array\Array.csproj" />
+    <ProjectReference Include="..\RefAndOutConsoleApp\RefAndOutConsoleApp.csproj" />
+    <ProjectReference Include="..\ReferenceAndValueTypesTests\ReferenceAndValueTypesTests.csproj" />
+    <ProjectReference Include="..\TheLimitOfDataTypesTests\TheLimitOfDataTypesTests.csproj" />
+    <ProjectReference Include="..\TheLimitOfDataTypes\TheLimitOfDataTypes.csproj" />
+    <ProjectReference Include="..\ValueAndReferenceTypes\ValueAndReferenceTypes.csproj" />
+  </ItemGroup>
+
+</Project>

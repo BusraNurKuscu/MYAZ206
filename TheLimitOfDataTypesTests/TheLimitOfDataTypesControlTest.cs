@@ -86,7 +86,8 @@ namespace TheLimitOfDataTypesTests
             variable = 100;
             return;
         }
-        public void CheckOutKeyWordVal( int variable)
+        public void CheckOutKeyWordVal( 
+            int variable)
         {
             variable = 100;
             return;
